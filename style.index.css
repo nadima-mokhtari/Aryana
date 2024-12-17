@@ -1,0 +1,227 @@
+* {
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+HTML{
+    width: 65rem;
+    display: flex;
+    margin: auto;
+}
+
+.navigation{
+    justify-content: center;
+    background-color: rgb(117, 112, 122);
+    padding: ;
+    
+}
+.navigation__title{
+    text-align: center;
+    padding: 15px;
+}
+.navigation__content{
+    justify-content: center;
+    text-align: center;
+}
+.navigation__nav{
+    text-align: center;
+    margin-top: 15px;
+    font-size: larger;
+    background-color: rgb(197, 132, 132);
+    padding: 10px 0;
+    width: 100%;
+}
+.navigation__link{
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+.navigation__link:hover{
+background-color: chartreuse;
+text-transform: uppercase;
+}
+
+#biographie{
+    
+    
+}
+.biographie__title{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: xx-large;
+}
+.biographie__image{
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    height: 20rem;
+}
+.biographie__paragraph{
+    font-size: medium;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.biographie__left{
+    box-sizing: border-box;
+    width: 50%;
+}
+.biographie__right{
+    box-sizing: border-box;
+    width: auto;
+}
+.biographie__list{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.biographie__item{
+    border-radius: 10px;
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    margin: auto;
+    flex-wrap: wrap;
+    
+   
+    }
+.biographie__item--naissance{
+    background-color: green;
+    padding: 7px;
+    margin: 7px;
+    border-radius:5px;
+    font-size: medium;
+   
+}
+.biographie__item--music{
+    background-color: rgb(216, 202, 202);
+    padding: 7px;
+    margin: 7px;
+    border-radius:5px;
+    font-size: medium;
+}
+.biographie__item--album{
+    background-color: blue;
+    padding: 7px;
+    margin: 7px;
+    border-radius:5px;
+    font-size: medium;
+}
+.biographie__item--droit{
+    background-color: purple;
+    padding: 7px;
+    margin: 7px;
+    border-radius:5px;
+    font-size: medium;
+}
+.biographie__item--activite{
+    background-color: yellow;
+    padding: 7px;
+    margin: 7px;
+    border-radius:5px;
+    font-size: medium;
+}
+
+.oeuvre__title{
+    margin-top: 20px;
+}
+
+.oeuvre__paragraph{
+    margin-top: 15px;
+    font-size: large;
+}
+.oeuvre__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    
+}
+.oeuvre__item{
+    margin: auto;
+    width: 400px;
+    
+
+}
+
+.oeuvre__item--bia{
+    background-color: blueviolet;
+    padding: 7px;
+    margin: 7px;
+    border-radius:5px;
+    font-size: medium;
+}
+.oeuvre__item--khanjar{
+    background-color: red;
+    padding: 7px;
+    margin: 7px;
+    border-radius:5px;
+    font-size: medium;
+}
+.oeuvre__item--shabe{
+    background-color: green;
+    padding: 7px;
+    margin: 7px;
+    border-radius:5px;
+    font-size: medium;
+}
+.oeuvre__item--madhosh{
+    background-color: crimson;
+    padding: 7px;
+    margin: 7px;
+    border-radius:5px;
+    font-size: medium;
+}
+.oeuvre__item--khodaya{
+    background-color: dimgray;
+    padding: 7px;
+    margin: 7px;
+    border-radius:5px;
+    font-size: medium;
+}
+
+#citation{
+    text-align: center;
+}
+
+.citation__title{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.citation__paragraph{
+    margin-bottom: 20px;
+}
+
+#contact{
+    text-align: center;
+}
+#formcontact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text {
+    width: 50%; 
+    height: 200px;
+    margin-left: 25%;
+}
+.button {
+    margin-left: 25%; 
+    margin-right: 25%;
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
+    color: white; 
+    cursor: pointer;
+    
+}
+.contact__title{
+    margin-bottom: 20px;
+}
+.contact__input-group{
+   
+}
