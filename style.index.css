@@ -10,11 +10,17 @@ HTML{
     margin: auto;
 }
 
+:root{
+    --colorBody:   rgb(121, 167, 179);
+}
+
+body{
+    background-color: var(--colorBody);
+}
+
 .navigation{
     justify-content: center;
-    background-color: rgb(117, 112, 122);
-    padding: ;
-    
+    background-color: rgb(28, 119, 134);
 }
 .navigation__title{
     text-align: center;
@@ -28,7 +34,7 @@ HTML{
     text-align: center;
     margin-top: 15px;
     font-size: larger;
-    background-color: rgb(197, 132, 132);
+    background-color: rgb(11, 73, 109);
     padding: 10px 0;
     width: 100%;
 }
@@ -38,14 +44,10 @@ HTML{
     text-decoration: none;
 }
 .navigation__link:hover{
-background-color: chartreuse;
+background-color: rgb(192, 107, 22);
 text-transform: uppercase;
 }
 
-#biographie{
-    
-    
-}
 .biographie__title{
     margin-top: 10px;
     margin-left: 10px;
@@ -56,7 +58,14 @@ text-transform: uppercase;
     margin-right: 20px;
     margin-top: 25px;
     height: 20rem;
+    box-shadow:0 4px 6px rgb(148, 24, 24); 
+    transition: transform 0.6s ease-in-out;
 }
+
+.biographie__image:hover{
+    transform: scale(1.25);
+}
+
 .biographie__paragraph{
     font-size: medium;
     margin-left: 10px;
@@ -75,6 +84,7 @@ text-transform: uppercase;
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .biographie__item{
     border-radius: 10px;
@@ -89,7 +99,7 @@ text-transform: uppercase;
    
     }
 .biographie__item--naissance{
-    background-color: green;
+    background-color:  rgb(11, 73, 109);
     padding: 7px;
     margin: 7px;
     border-radius:5px;
@@ -97,28 +107,28 @@ text-transform: uppercase;
    
 }
 .biographie__item--music{
-    background-color: rgb(216, 202, 202);
+    background-color:  rgb(11, 73, 109);
     padding: 7px;
     margin: 7px;
     border-radius:5px;
     font-size: medium;
 }
 .biographie__item--album{
-    background-color: blue;
+    background-color:  rgb(11, 73, 109);
     padding: 7px;
     margin: 7px;
     border-radius:5px;
     font-size: medium;
 }
 .biographie__item--droit{
-    background-color: purple;
+    background-color:  rgb(11, 73, 109);
     padding: 7px;
     margin: 7px;
     border-radius:5px;
     font-size: medium;
 }
 .biographie__item--activite{
-    background-color: yellow;
+    background-color:  rgb(11, 73, 109);
     padding: 7px;
     margin: 7px;
     border-radius:5px;
@@ -139,6 +149,7 @@ text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: space-around;
+    text-align: center;
     
 }
 .oeuvre__item{
@@ -149,35 +160,35 @@ text-transform: uppercase;
 }
 
 .oeuvre__item--bia{
-    background-color: blueviolet;
+    background-color:  rgb(11, 73, 109);
     padding: 7px;
     margin: 7px;
     border-radius:5px;
     font-size: medium;
 }
 .oeuvre__item--khanjar{
-    background-color: red;
+    background-color:  rgb(11, 73, 109);
     padding: 7px;
     margin: 7px;
     border-radius:5px;
     font-size: medium;
 }
 .oeuvre__item--shabe{
-    background-color: green;
+    background-color:  rgb(11, 73, 109);
     padding: 7px;
     margin: 7px;
     border-radius:5px;
     font-size: medium;
 }
 .oeuvre__item--madhosh{
-    background-color: crimson;
+    background-color:  rgb(11, 73, 109);
     padding: 7px;
     margin: 7px;
     border-radius:5px;
     font-size: medium;
 }
 .oeuvre__item--khodaya{
-    background-color: dimgray;
+    background-color:  rgb(11, 73, 109);
     padding: 7px;
     margin: 7px;
     border-radius:5px;
@@ -195,6 +206,35 @@ text-transform: uppercase;
 }
 .citation__paragraph{
     margin-bottom: 20px;
+}
+
+#galerie{
+    text-align: center;
+}
+.galerie__title{
+    margin-bottom: 10px;
+}
+
+.galerie__list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    
+    list-style: none;
+}
+
+.galerie__item{
+    width: 48%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    box-shadow: 0 4px 6px rgb(148, 24, 24);
+    transition: 0.6s ease-in-out;
+    
+}
+
+.galerie__item:hover{
+    transform: scale(1.25); 
 }
 
 #contact{
@@ -216,12 +256,21 @@ text-transform: uppercase;
     padding: 10px 20px; 
     background-color: #4CAF50; 
     color: white; 
-    cursor: pointer;
-    
+    margin-bottom: 10px;
 }
 .contact__title{
     margin-bottom: 20px;
+    margin-top: 20px;
 }
-.contact__input-group{
-   
+.contact__input{
+    width: 49%;
+    padding: 2px
 }
+
+
+footer{
+    padding: 15px;
+    text-align: center;
+    font-size: x-large;
+}
+
