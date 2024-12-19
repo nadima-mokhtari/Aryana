@@ -48,9 +48,9 @@
 <section id="secret">
 <button id="showSecret"> show secret</button>
 <div id="secret">
-<p id="secretItem" style="display: none;"><strong>  Aryana Sayed a une fois secrètement performé pour un petit groupe de fans dans un endroit caché pour surprendre ses supporters !</strong></div>
+<p id="secret--Item" style="display: none;"><strong>  Aryana Sayed a une fois secrètement performé pour un petit groupe de fans dans un endroit caché pour surprendre ses supporters !</strong></div>
 </section>
-
+<hr>
 
     <section id="oeuvre">
         <h1 class="oeuvre__title"> Oeuvre</h1>
@@ -63,7 +63,7 @@
             <li class="oeuvre__item oeuvre__item--khodaya"><strong>2016: </strong>Khodaya</li>
         </ul>
 </section>
-
+<hr>
 
 <section id="galerie">
     <div class="galerie__image">
@@ -79,6 +79,12 @@
     <hr>
 </section>
 
+
+<div id="lightbox" class="lightbox">
+    <span class="lightbox__close">&times;</span>
+    <img class="lightbox__content" id="lightbox-img">
+</div>
+
 <section id="citation">
     <h5 class="citation__title">Citation</h5>
     <p class="citation__paragraph">"Élevons la voix ensemble"</p>
@@ -88,27 +94,36 @@
     <hr>
 </section>
 
+
 <section id="contact">
     <h2 class="contact__title">contacter Aryana Sayed grârce â la force</h2>
+
+    <p id="days-lived"></p>
+    
         <form id="formContact" class="form">
 
     <div class="contact__input-group">
-        <label class="contact__label" for="nom"> </label>
-        <input class="contact__input" type="text" id="nom" name="nom" placeholder="Nom">
+        <label for="nom"> </label>
+        <input type="text" id="nom" name="nom" placeholder="Nom" required>
     </div>
 
         
         <div class="contact__input-group">
-                <label class="contact__label" for="email"></label>
-                <input class="contact__input " type="text" id="email" name="email" placeholder="email">
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="email" required>
         </div>
-                <textarea class="text"  ></textarea>
-                <button class="button" type="submit">Envoyer</button>
+
+        <div class="contact__input-group">
+            <label for="message">Message</label>
+                <textarea id="message" placeholder="message" ></textarea required>
+                <button type="submit">Envoyer</button>
+            </form>
     </section>
-</form>
+
 <hr>
 <footer>
     <p>© 2024 Aryana Sayed - Sherzaad Entertainment - Tous droits réservés.</p>
+  <div class="vedio"> <a href="https://youtu.be/Wee1NMX_MIs?si=t7FvmDYBj6Gp0rTo">Nouveau chant d’Aryana Sayed</a></div> 
 </footer>
 
 <script src="index.js"></script>
