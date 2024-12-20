@@ -28,7 +28,7 @@
 
     <section id="biographie">
     <div class="biographie__right">  
-    <img class="biographie__image" src="asset photo/3.jpg" alt="">
+    <img class="biographie__image" src="asset photo/aryana.jpg" alt="">
 </div> 
 <div class="biographie__left">
     <h1 class="biographie__title"> biographie</h1>
@@ -48,7 +48,7 @@
 <section id="secret">
 <button id="showSecret"> show secret</button>
 <div id="secret">
-<p id="secret--Item" style="display: none;"><strong>  Aryana Sayed a une fois secrètement performé pour un petit groupe de fans dans un endroit caché pour surprendre ses supporters !</strong></div>
+<p id="secretItem" style="display: none;"><strong>  Aryana Sayed a une fois secrètement performé pour un petit groupe de fans dans un endroit caché pour surprendre ses supporters !</strong></div>
 </section>
 <hr>
 
@@ -88,42 +88,44 @@
 <section id="citation">
     <h5 class="citation__title">Citation</h5>
     <p class="citation__paragraph">"Élevons la voix ensemble"</p>
-    <p class="citation__paragraph"> "La musique a le pouvoir d’unir. Elle transcende les frontières et s’adresse directement au cœur"
+    <p class="citation__paragraph"> "La musique a le pouvoir d'unir. Elle transcende les frontières et s'adresse directement au cœur"
     </p>
-    <p class="citation__paragraph">"Le chemin d’un artiste n’est jamais facile, mais c’est par la persévérance et la passion que nous trouvons notre vraie voix"</p>
+    <p class="citation__paragraph">"Le chemin d'un artiste n'est jamais facile, mais c'est par la persévérance et la passion que nous trouvons notre vraie voix"</p>
     <hr>
 </section>
 
 
-<section id="contact">
-    <h2 class="contact__title">contacter Aryana Sayed grârce â la force</h2>
+<section id="contact" class="contact">
+    <h2 class="contact__title">Contacter Aryana Sayed grâce à la force</h2>
 
-    <p id="days-lived"></p>
+    <p id="days-lived" class="contact__days-lived"></p>
     
-        <form id="formContact" class="form">
+    <form id="formContact" class="contact__form">
 
-    <div class="contact__input-group">
-        <label for="nom"> </label>
-        <input type="text" id="nom" name="nom" placeholder="Nom" required>
-    </div>
-
-        
         <div class="contact__input-group">
-                <label for="email"></label>
-                <input type="text" id="email" name="email" placeholder="email" required>
+            <label for="nom" class="contact__label">Nom</label>
+            <input type="text" id="nom" name="nom" class="contact__input" placeholder="Nom" required>
         </div>
 
         <div class="contact__input-group">
-            <label for="message">Message</label>
-                <textarea id="message" placeholder="message" ></textarea required>
-                <button type="submit">Envoyer</button>
-            </form>
-    </section>
+            <label for="email" class="contact__label">Email</label>
+            <input type="text" id="email" name="email" class="contact__input" placeholder="Email" required>
+        </div>
+
+        <div class="contact__input-group">
+            <label for="message" class="contact__label">Message</label>
+            <textarea id="message" class="contact__textarea" placeholder="Votre message" required></textarea>
+        </div>
+
+        <button class="contact__button button" type="submit">Envoyer</button>
+    </form>
+</section>
+
 
 <hr>
 <footer>
     <p>© 2024 Aryana Sayed - Sherzaad Entertainment - Tous droits réservés.</p>
-  <div class="vedio"> <a href="https://youtu.be/Wee1NMX_MIs?si=t7FvmDYBj6Gp0rTo">Nouveau chant d’Aryana Sayed</a></div> 
+  <div class="vedio"> <a href="https://youtu.be/Wee1NMX_MIs?si=t7FvmDYBj6Gp0rTo">Nouveau chant d'Aryana Sayed</a></div> 
 </footer>
 
 <script src="index.js"></script>
