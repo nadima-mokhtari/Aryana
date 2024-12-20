@@ -28,7 +28,7 @@ lightbox.addEventListener('click', e=> {
 
 // Calculate and display the number of days since birth
 function calculateDaysLived() {
-    const birthDate = new Date('1995-06-15'); // Replace with Aryana's birth date
+    const birthDate = new Date('1985-06-14'); // Replace with Aryana's birth date
     const currentDate = new Date();
     const timeDifference = currentDate - birthDate;
     const daysLived = Math.floor(timeDifference / (1000 * 60 * 60 * 24)); // Convert to days
